@@ -1,4 +1,4 @@
-//package workshop.fizzBuzz;
+//package src;
 
 import java.util.*;
 
@@ -9,7 +9,7 @@ import java.util.*;
  * For numbers which are factors of both three and five print fizzBuzz instead of the number
  */
 public class FizzBuzz {
-    private final List<PatternMatcher> patternMatchers;
+    private List<PatternMatcher> patternMatchers;
 
     public FizzBuzz()
     {
@@ -34,7 +34,7 @@ public class FizzBuzz {
         }
 
     
-        if(returnString.isEmpty()) return String.valueOf(number);
-        else return returnString;
+        if(stringToReturn.isEmpty()) return String.valueOf(number);
+        else return stringToReturn;
     }
 }
